@@ -3,7 +3,7 @@ import { StyleSheet } from "react-native";
 export const style = StyleSheet.create({
   productCard: {
     borderRadius: 16,
-    backgroundColor: "#FFFFFFFF", // fondo limpio
+    backgroundColor: "#ffffff", // fondo limpio
     padding: 12,
     shadowColor: "#000",
     shadowOffset: { width: 0, height: 2 },
@@ -34,7 +34,8 @@ export const style = StyleSheet.create({
   },
 
   containerProducts: {
-    padding: 16,
+    padding: 10,
+    justifyContent: "center",
     flexDirection: "row",
     flexWrap: "wrap",
   },
@@ -67,7 +68,7 @@ export const style = StyleSheet.create({
     flexDirection: "row",
     alignItems: "center",
     padding: 10,
-    marginTop: 10,
+    marginTop: 30,
   },
   //estilo del boton de inicio de sesión de la pantalla de inicio
     loginButtonHome: {
